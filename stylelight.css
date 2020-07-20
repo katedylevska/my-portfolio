@@ -56,7 +56,7 @@ body {
 
 .hero-image {
   position: relative;
-  height: 568px;
+  height: 564px;
 }
 
 .hero-image .container {
@@ -342,7 +342,7 @@ body {
 
 .project-image {
   z-index: 1;
-  position: absolute;
+  position: relative; /* position absolute --> relative*/
   margin: 0;
   top: 0;
   left: 0;
@@ -370,7 +370,7 @@ body {
 
 .button {
   position: relative;
-  margin: auto 72px -10px;
+  margin: auto 72px 10px;  /* margin -10 --> 10px*/
   padding: 10px 0 10px 28px;
   display: block;
   font-size: 20px;
@@ -379,7 +379,9 @@ body {
   text-transform: uppercase;
   color: #8da2ed;
   border: 1px solid #8da2ed;
+  width: 240px; /* задана ширина кнопки*/
 }
+
 
 .button::before {
   position: absolute;
@@ -387,13 +389,14 @@ body {
   width: 20px;
   height: 20px;
   top: 14px;
-  left: 29px;
+  left: 8px; /* изменила позиционирование*/
+  margin-right: 20px;
   background-image: url("img/icon-open-page.svg");
 }
 
 .button:focus,
 .button:hover {
-  margin-bottom: -10px;
+  margin-bottom: 10px; /*-10 ---> 10*/
   color: #ffffff;
   border-color: #c98ded;
   background-color: #c98ded;
