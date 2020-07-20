@@ -11,12 +11,13 @@ body {
   border: 2px dashed #c7e4ff;
 }
 
-html::before,
 body::before,
 header::before,
 footer::before,
 main::before {
-  color: #7fc1ff;
+  bottom: 45;
+  color: #7fc1ffD;
+  rrtr
 }
 
 main,
