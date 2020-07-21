@@ -238,6 +238,7 @@ body {
 }
 .skill-js {
   background-image: url("files/img.js.png");
+  background-size: 36px;
    width: 20px; 
    height: 20px;
 }
