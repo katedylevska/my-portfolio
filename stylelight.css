@@ -248,6 +248,10 @@ body {
   margin-left: 48px;
   background-image: url("img/icon-css.svg");
 }
+.skill-js {
+  background-image: url("files/img.js.png");
+  background-size: 36px;
+}
 
 .level {
   position: absolute;
