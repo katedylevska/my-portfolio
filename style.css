@@ -1,7 +1,7 @@
 body {
   position: relative;
   margin: 0;
-  min-width: 1400px;
+  min-width: 1408px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 32px;
@@ -9,63 +9,6 @@ body {
   background-color: #141530;
   background-image: url("img/pattern-lines-hero.svg");
   background-position: center;
-}
-h4 {
-  text-align: left ;
-  color: aqua;
-  font-size: 36px;
-}
-
-.imglanding {
-  margin-bottom: 30px;
-}
-
-.myimg {
-    position: relative;
-    content: "";
-    height: 200px;
-    width: 100%;
-    bottom: 0;
-    background-color: #0b0c23;
-    background-image: url("img/bg-tags.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    border-top: 2px solid #5053a8;
-
-}
-.imglanding p {
-  display: inline-block;
-  vertical-align: top;
-  width: 30%;
-  margin: 0 5px;
-  text-align: center;
-  background-repeat: no-repeat;
-  background-position: center top;
-  padding-top: 150px;
-}
-
-.feature-kitten {
-  padding-top: 60px;
-  background-image: url("img/bottle.svg");
-  background-size:100px;
-}
-
-.feature-cat {
-  padding-top: 60px;
-  background-image: url("img/cat.svg");
-  background-size:100px;
-}
-
-.feature-train {
-  padding-top: 60px;
-  background-image: url("img/whistle.svg");
-  background-size:100px;
-}
-p {
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 }
 .container {
   max-width: 1408px;
@@ -255,8 +198,6 @@ p {
   line-height: 40px;
   font-weight: 500;
 }
-
-
 
 .intro p {
   margin: 0;
